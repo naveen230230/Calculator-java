@@ -3,7 +3,7 @@ pipeline{
     stages{
        stage('Git Checkout Stage'){
             steps{
-                git branch: 'main', url: 'https://github.com/sudheer76R/Calculator-java.git'
+                git branch: 'master', url: 'https://github.com/sudheer76R/Calculator-java.git'
             }
          }        
        stage('Build Stage'){
